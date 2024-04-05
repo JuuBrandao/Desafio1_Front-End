@@ -252,6 +252,7 @@ function contarLetrasMaiusculas(string) {
     return count;
 }
 
+//Exemplo
 let minhaString = "LoReM IpSuM Is sImPlY DuMmY TeXt oF ThE PrInTiNg aNd tYpEsEtTiNg iNdUsTrY";
 let numeroDeMaiusculas = contarLetrasMaiusculas(minhaString);
 console.log("Número de letras maiúsculas na string:", numeroDeMaiusculas);
